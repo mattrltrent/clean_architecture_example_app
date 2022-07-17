@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import '../../../../core/errors/exceptions.dart';
 import '../models/weather_model.dart';
 
-const String API_KEY = "49db6b4a1405dedfa53864b0b935039c";
+const String API_KEY = "YOUR_API_KEY_HERE";
 
 abstract class IWeatherRemoteDataSource {
   Future<WeatherModel> getLocationWeather(String city);
